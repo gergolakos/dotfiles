@@ -1,0 +1,15 @@
+confirm-close-surface = false
+custom-shader = ~/.config/ghostty/shaders/cursor-blade-no-trail.glsl
+font-family = GoMono Nerd Font
+font-feature = -liga
+font-feature = -dlig
+font-feature = -calt
+font-size = 17
+fullscreen = true
+macos-non-native-fullscreen = visible-menu
+mouse-hide-while-typing = true
+window-decoration = false
+window-padding-x = 5
+window-padding-y = 5
+window-theme = dark
+
