@@ -6,6 +6,7 @@ export ZSH="/Users/$(whoami)/.oh-my-zsh"
 export LC_ALL=en_US.UTF-8
 
 export PATH="/opt/homebrew/bin:$PATH"
+eval "$(/opt/homebrew/bin/mise activate zsh)"
 # export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
 export PATH="$(pwd)/bin:$PATH"
 

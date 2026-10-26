@@ -1,0 +1,24 @@
+[tools]
+python = "3.14"
+go = "1.22"
+terraform = "1.7"
+terragrunt = "latest"
+awscli = "latest"
+node = "22"
+kubectl = "latest"
+helm = "latest"
+k9s = "latest"
+fd = "latest"
+ripgrep = "latest"
+fzf = "latest"
+jq = "latest"
+yq = "latest"
+gh = "latest"
+# direnv = "latest"
+pre-commit = "latest"
+
+[settings]
+experimental = true
+
+# [hooks]
+# enter = "{{ mise_bin }} install"
