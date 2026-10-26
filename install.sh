@@ -8,7 +8,7 @@ path=$(cd "$(dirname "$0")" && pwd)
 ln -sfn "$path/zsh/zshrc"                  "$HOME/.zshrc"
 ln -sfn "$path/tmux/tmux.conf"             "$HOME/.tmux.conf"
 ln -sfn "$path/vim/vimrc"                  "$HOME/.vimrc"
-ln -sfn "$path/editorconfig/config.toml"   "$HOME/.editorconfig"
+ln -sfn "$path/editorconfig/config.ini"    "$HOME/.editorconfig"
 ln -sfn "$path/hammerspoon"                "$HOME/.hammerspoon"
 
 
@@ -16,7 +16,7 @@ ln -sfn "$path/hammerspoon"                "$HOME/.hammerspoon"
 mkdir -p "$HOME/.config"
 ln -sfn "$path/alacritty"       "$HOME/.config/alacritty"
 ln -sfn "$path/ghostty"         "$HOME/.config/ghostty"
-# ln -sfn "$path/nvim"            "$HOME/.config/nvim"
+# ln -sfn "$path/nvim_bak"        "$HOME/.config/nvim"
 ln -sfn "$path/mise/mise.toml"  "$HOME/.config/.mise.toml"
 
 # Bin files
